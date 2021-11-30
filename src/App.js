@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Coin from './components/Coin';
+import Alert from './components/Alert'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/coins/:id" element={<Coin />} />
         </Routes>
       </div>
+      <Alert />
     </Router>
   );
 }

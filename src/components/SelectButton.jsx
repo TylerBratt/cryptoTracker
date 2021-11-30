@@ -2,15 +2,12 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core';
 
 const SelectButton = ({ children, selected, onClick }) => {
-
   const useStyles = makeStyles({
     selectbutton: {
       border: "1px solid gold",
       borderRadius: 5,
       padding: 10,
-      paddingLeft: 20,
-      paddingRight: 20,
-      fontFamily: "Montserrat",
+      fontFamily: "Poppins",
       cursor: "pointer",
       backgroundColor: selected ? "gold" : "",
       color: selected ? "black" : "",
@@ -19,18 +16,19 @@ const SelectButton = ({ children, selected, onClick }) => {
         backgroundColor: "gold",
         color: "black",
       },
-      width: "22%",
+      width: "23%",
+      textAlign: "center",
     },
   });
 
   const classes = useStyles();
-  return (
-    <span
-      onClick={onClick}
-      className={classes.selectButton}
-    ></span>
-  )
-}
 
-export default SelectButton
+  return (
+    <span onClick={onClick} className={classes.selectbutton}>
+      {children}
+    </span>
+  );
+};
+
+export default SelectButton;
 
