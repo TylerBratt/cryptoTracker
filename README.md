@@ -1,6 +1,6 @@
 
 # Feel free to visit at:
-[CryptoTracker](https://cryptocurrency-cointracker.web.app)
+# [CryptoTracker](https://cryptocurrency-cointracker.web.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
