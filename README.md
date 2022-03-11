@@ -1,6 +1,5 @@
-# Getting Started with Create React App
 
-Feel free to visit at:
+# Feel free to visit at:
 [CryptoTracker](https://cryptocurrency-cointracker.web.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
